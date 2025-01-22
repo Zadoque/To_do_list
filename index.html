@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-do List - Refatorando by Zadoque Carneiro</title>
+        <link rel="stylesheet" href="public/css/styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body class="body--light">
+        <div class="container">
+            <div id="up"></div>
+            <div  class="down"></div>
+            <div class="content">
+                    <div class="content-head">
+                        <div class="content-head-title">
+                            <h2>To-Do List</h2>
+                            <div ><i class="bi bi-moon" id="dark-light-mode"></i></div>
+                        </div>
+                        <div class="content-head-input">
+                            <input class="content-head-input-element content-head-input-element--light" type="text" placeholder="Insira o todo por aqui...">
+                        </div>
+                    </div>
+
+                    <div class="content-body content-body--light"></div>
+
+                    <div class="content-footer content-footer--light">
+                        <div class="content-footer-itens-left" id="not-a-button">0 item restante</div>
+                        <div class="content-footer-all selected">Todos</div>
+                        <div class="content-footer-active">Ativos</div>
+                        <div class="content-footer-done">Concluidos</div>
+                        <div class="content-footer-clean">Limpeza Completa</div>
+                    </div>
+                </div>
+            </div>        
+        <script src="./public/js/scripts.js"></script>
+    </body>
+</html>
